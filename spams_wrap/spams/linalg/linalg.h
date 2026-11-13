@@ -541,9 +541,9 @@ template<typename T> class Matrix : public Data<T>, public AbstractMatrix<T>, pu
    /// pointer to the data
    T* _X;
    /// number of rows
-   INTM _m;
+   long long _m;
    /// number of columns
-   INTM _n;
+   long long _n;
 
 };
 
